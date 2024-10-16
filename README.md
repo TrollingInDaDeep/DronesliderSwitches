@@ -18,6 +18,4 @@ At the end, you have to create Gerber files, they contain all the PCB Traces, dr
 If you edit the .JSON files, you need to create the Gerber files again and upload them. Of course, you can use any design tool and PCB manufacturing service you want, as long as the files are compatible.
 ![3D Render](/3D_Render.png)
 
-
-
- 
+# Assembly

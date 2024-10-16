@@ -16,7 +16,7 @@ Also added in the Circuit is a CD4051BE Multiplexer, Which could be used to make
 The Circuit and PCB were designed using EasyEDA, an online tool to create these things and order them directly for manufacturing. Both export files are in the EasyEDA/ folder in this repo. You can simply import these .JSON files into the EasyEDA designer (free account needed) and modify them as you wish.
 At the end, you have to create Gerber files, they contain all the PCB Traces, drill holes, solder pads and writing. These you can then upload to EasyEDA and order them.
 If you edit the .JSON files, you need to create the Gerber files again and upload them. Of course, you can use any design tool and PCB manufacturing service you want, as long as the files are compatible.
-[3D Render](/3D_Render.png)
+![3D Render](/3D_Render.png)
 
 
 

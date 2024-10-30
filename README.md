@@ -1,10 +1,16 @@
 ##### Table of Contents  
 [About](#About)
+
 [Circuit](#Circuit)
+
 [Design](#Design)
+
 [How it works](#How-it-works)
+
 [Assembly](#Assembly)
+
 [Sequencer](#Sequencer)
+
 
 # DronesliderSwitches
 Addon PCB for FlipFloaters Hex Drone Slider
@@ -27,6 +33,13 @@ If you edit the .JSON files, you need to create the Gerber files again and uploa
 ![3D Render](/3D_Render.png)
 
 # How it works
+Here´s the Pinout of the DroneSlider. Each voice has 7 Octaves. The Thin pads are all connected to the + Voltage, the Thick pads when receiving voltage, will play the dialed tone for that voice in 7 different octaves (voltage is always halved to get one octave lower).
+![PCB_Comparison](./images/pinout.jpg)
+
+The addon board features for each voice 1 Potentiometer to dial the volume of the voice and a DIP switch. The DIP switch 1 enables or disables the voice. The other 2-7 switches will enable / disable each octave of the voice.
+Like this you can enable and disable each voice, set which octaves are played and mix the volume of each voice. This gives you a drone-y sound. Best coupled with a few effects (filters, delays, reverbs) to get crazy and awesome sounds.
+
+There is a 3 pin header to switch between 2 modes: Drone and SEQ. If connecting the lower 2 Pins with a jumper, you are in Drone mode, where the 1st voice and all others act as drone voices. By selecting SEQ mode, the sequencer is activated. More on that below under "Sequencer".
 
 
 # Assembly
@@ -71,5 +84,6 @@ Start with attaching the PCBs to each other first. I did the mistake to first po
    - Don´t burn the potentiometers with your solder iron
    - when desoldering your previous modifications, don´t rip off one of the pads like I did
    - It´s a fiddly job, don´t loose patience and take breaks if needed
+   - The Mixing potentiometers behave a bit strange. When a voice is enabled, you should turn up the pot at least a little bit, otherwise none of the voices will be heard. I used linear pots, which are sub-optimal for audio usage, but they work quite okay with this strange behavior.
 
 # Sequencer

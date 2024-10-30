@@ -1,3 +1,11 @@
+##### Table of Contents  
+[About](#About)
+[Circuit](#Circuit)
+[Design](#Design)
+[How it works](#How-it-works)
+[Assembly](#Assembly)
+[Sequencer](#Sequencer)
+
 # DronesliderSwitches
 Addon PCB for FlipFloaters Hex Drone Slider
 
@@ -18,9 +26,12 @@ At the end, you have to create Gerber files, they contain all the PCB Traces, dr
 If you edit the .JSON files, you need to create the Gerber files again and upload them. Of course, you can use any design tool and PCB manufacturing service you want, as long as the files are compatible.
 ![3D Render](/3D_Render.png)
 
+# How it works
+
+
 # Assembly
 The blank PCB arrived and looked beautiful. Inspect it for errors and admire your work!
-![PCB_Comparison](./images/blank_pcb.jpg)+
+![PCB_Comparison](./images/blank_pcb.jpg)
 
 Start with attaching the PCBs to each other first. I did the mistake to first populate the PCB with the potentiometers and well, what can I say, I burned them with my solder iron.
 
@@ -29,31 +40,31 @@ Start with attaching the PCBs to each other first. I did the mistake to first po
    Red: Don´t connect he other thin pads
    Red dotted: The uppermost thin pad on the main board will not be seen (and not connected)
    
-![PCB_Comparison](./images/align.jpg)+
+![PCB_Comparison](./images/align.jpg)
 
 3. Clamp the boards in place so they don´t slip and you can solder in peace. Solder upper left and lower right corner first for stability.
-![PCB_Comparison](./images/clamp.jpg)+
+![PCB_Comparison](./images/clamp.jpg)
 4. Solder the Pads together. This is a Pain I tell you. I first tried to bridge by just using a lot of solder, this worked sometimes but not very convenient and fiddly.
    I then tried to make small wires (2mm or so) and bend them in a 90° angle. Then, using pliers, solder one end to the upper pad first, keep holding the wire and also solder to the lower pad.
    The solder joints look absolutely horrible and I don´t know if the connections are good, but it´s the best I could get to work. For easier installation it´s probably needed to find a different solution for connecting the pads.
 
-   ![PCB_Comparison](./images/bridges_1.jpg)+
-   ![PCB_Comparison](./images/bridges_2.jpg)+
+   ![PCB_Comparison](./images/bridges_1.jpg)
+   ![PCB_Comparison](./images/Bridges_2.jpg)
 
 5. Solder a Wire from the GND pad to a GND on the main board. I soldered it to the GND ring on the backside.
-   ![PCB_Comparison](./images/GND_Wire_1.jpg)+
-   ![PCB_Comparison](./images/GND_Wire_2.jpg)+
-   ![PCB_Comparison](./images/GND_Wire_side.jpg)+
+   ![PCB_Comparison](./images/GND_Wire_1.jpg)
+   ![PCB_Comparison](./images/GND_Wire_2.jpg)
+   ![PCB_Comparison](./images/GND_Wire_side.jpg)
 
 6. Solder the parts in, from smallest to tallest. First the IC socket, then the DIP switch and lastly the potentiometers. Always solder one pin, so the part holds in place, then reheat the solder and push it in straight position.
    Then continue to solder all pins. Lastly solder the 3 Pin header in.
-   ![PCB_Comparison](./images/parts_order.jpg)+
-   ![PCB_Comparison](./images/Header.jpg)+
+   ![PCB_Comparison](./images/parts_order.jpg)
+   ![PCB_Comparison](./images/Header.jpg)
 
 7. Modify the jack socket (optional)
    I found, that I usually only have stereo jack cables laying around. By connecting them to the socket of the droneslider you will only get sound on one channel. To simply "clone" the audio signal to both channels, just add a small bridging wire.
    Be careful to not melt the jack socked, as this would suck.
-   ![PCB_Comparison](./images/Jack_Mod.jpg)+
+   ![PCB_Comparison](./images/Jack_Mod.jpg)
 
 8. Additional tips:
    - Clean the surface with some nail polish or alcohol cleaner, but don´t spill it all over your desk
@@ -61,3 +72,4 @@ Start with attaching the PCBs to each other first. I did the mistake to first po
    - when desoldering your previous modifications, don´t rip off one of the pads like I did
    - It´s a fiddly job, don´t loose patience and take breaks if needed
 
+# Sequencer

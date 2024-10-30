@@ -19,4 +19,23 @@ If you edit the .JSON files, you need to create the Gerber files again and uploa
 ![3D Render](/3D_Render.png)
 
 # Assembly
-![PCB_Comparison](https://github.com/user-attachments/assets/ad0167c1-1546-4c7d-9491-3713d0d341c0)
+The blank PCB arrived and looked beautiful. Inspect it for errors and admire your work!
+![PCB_Comparison](./images/blank_pcb.jpg)+
+
+Start with attaching the PCBs to each other first. I did the mistake to first populate the PCB with the potentiometers and well, what can I say, I burned them with my solder iron.
+
+1. Align the pins of the addon board with the Main DroneSlider board. Make the lowest Pad match.
+   Blue: connect the Thick pads (and the lowest thin pad)
+   Red: Don´t connect he other thin pads
+   Red dotted: The uppermost thin pad on the main board will not be seen (and not connected)
+   
+![PCB_Comparison](./images/align.jpg)+
+
+3. Clamp the boards in place so they don´t slip and you can solder in peace. Solder upper left and lower right corner first for stability.
+![PCB_Comparison](./images/clamp.jpg)+
+4. Solder the Pads together. This is a Pain I tell you. I first tried to bridge by just using a lot of solder, this worked sometimes but not very convenient and fiddly.
+   I then tried to make small wires (2mm or so) and bend them in a 90° angle. Then, using pliers, solder one end to the upper pad first, keep holding the wire and also solder to the lower pad.
+   The solder joints look absolutely horrible and I don´t know if the connections are good, but it´s the best I could get to work. For easier installation it´s probably needed to find a different solution for connecting the pads.
+
+   ![PCB_Comparison](./images/bridges_1.jpg)+
+   ![PCB_Comparison](./images/bridges_2.jpg)+

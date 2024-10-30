@@ -19,3 +19,4 @@ If you edit the .JSON files, you need to create the Gerber files again and uploa
 ![3D Render](/3D_Render.png)
 
 # Assembly
+![PCB_Comparison](https://github.com/user-attachments/assets/ad0167c1-1546-4c7d-9491-3713d0d341c0)

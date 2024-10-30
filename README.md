@@ -39,3 +39,25 @@ Start with attaching the PCBs to each other first. I did the mistake to first po
 
    ![PCB_Comparison](./images/bridges_1.jpg)+
    ![PCB_Comparison](./images/bridges_2.jpg)+
+
+5. Solder a Wire from the GND pad to a GND on the main board. I soldered it to the GND ring on the backside.
+   ![PCB_Comparison](./images/GND_Wire_1.jpg)+
+   ![PCB_Comparison](./images/GND_Wire_2.jpg)+
+   ![PCB_Comparison](./images/GND_Wire_side.jpg)+
+
+6. Solder the parts in, from smallest to tallest. First the IC socket, then the DIP switch and lastly the potentiometers. Always solder one pin, so the part holds in place, then reheat the solder and push it in straight position.
+   Then continue to solder all pins. Lastly solder the 3 Pin header in.
+   ![PCB_Comparison](./images/parts_order.jpg)+
+   ![PCB_Comparison](./images/Header.jpg)+
+
+7. Modify the jack socket (optional)
+   I found, that I usually only have stereo jack cables laying around. By connecting them to the socket of the droneslider you will only get sound on one channel. To simply "clone" the audio signal to both channels, just add a small bridging wire.
+   Be careful to not melt the jack socked, as this would suck.
+   ![PCB_Comparison](./images/Jack_Mod.jpg)+
+
+8. Additional tips:
+   - Clean the surface with some nail polish or alcohol cleaner, but don´t spill it all over your desk
+   - Don´t burn the potentiometers with your solder iron
+   - when desoldering your previous modifications, don´t rip off one of the pads like I did
+   - It´s a fiddly job, don´t loose patience and take breaks if needed
+

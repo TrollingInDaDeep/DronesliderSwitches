@@ -19,8 +19,8 @@
 Addon PCB for FlipFloaters Hex Drone Slider
 
 # About
-FlipFloater, great DIY Synth builder (https://flipfloater.net/) created an awesome small DIY Synthesizer. It´s a 6-Tone Touch sensitive drone synth with 7 octaves per tone. The basis are six Schmitt-Triggers (Squarewaves). The pitch of each tone is adjustable and has a 4070 ring modulation and a distortion. Great Kit he offered to build at Circuit Control Festival in Dresden (https://www.circuit-control.de/)
-The Synth is great and motivated me to continue building electronic projects. However my brain is never satisfied, so immediately I started thinking about how to mod this beautiful machine and render it possibly even more useful for making Music.
+FlipFloater, great DIY Synth builder (https://flipfloater.net/) created an awesome small DIY Synthesizer. It´s a 6-Tone Touch sensitive drone synth with 7 octaves per tone. The basis are six Schmitt-Triggers (Squarewaves). The pitch of each tone is adjustable and has a 4070 ring modulation and a distortion. Great Kit he offered to build at Circuit Control Festival in Dresden (https://www.circuit-control.de/).
+The Synth is genius and motivated me to continue building electronic projects. However my brain is never satisfied, so immediately I started thinking about how to mod this beautiful machine and render it possibly even more useful for making Music.
 The Idea was, that, like an actual drone synth, you don´t need to play it, instead you can fade in and out each of the 6 Voices. This should make the sounds much more spheric and ambient. With switches I wanted to be able to toggle each of the 7 Voice Octaves. 
 As it should be quite an easy project I thought it was time to design this as my first PCB.
 
@@ -59,7 +59,7 @@ Here´s the Pinout of the DroneSlider. Each voice has 7 Octaves. The Thin pads a
 The addon board features for each voice 1 Potentiometer to dial the volume of the voice and a DIP switch. The DIP switch 1 enables or disables the voice. The other 2-7 switches will enable / disable each octave of the voice.
 Like this you can enable and disable each voice, set which octaves are played and mix the volume of each voice. This gives you a drone-y sound. Best coupled with a few effects (filters, delays, reverbs) to get crazy and awesome sounds.
 
-There is a 3 pin header to switch between 2 modes: Drone and SEQ. If connecting the lower 2 Pins with a jumper, you are in Drone mode, where the 1st voice and all others act as drone voices. By selecting SEQ mode, the sequencer is activated. More on that below under "Sequencer".
+There is a 3 pin header to switch between 2 modes: Drone and SEQ. If connecting the lower 2 Pins with a jumper, you are in Drone mode, where the 1st voice and all others act as drone voices. By selecting SEQ mode, the sequencer is activated. More on that below: [Sequencer](#Sequencer)
 
 
 # Assembly

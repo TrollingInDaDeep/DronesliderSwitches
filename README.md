@@ -115,7 +115,16 @@ Would've been more convenient to connect with a connector if I had not gone with
 6. To keep track of which step is currently active, you could add some LEDs
 
 Sound examples:
+Just the sequencer switching through the voices
 ![RAW](./Audio/SEQ_raw.mov)
+
+Sequencer switching through, but disabling the note after 50ms gate time. Bit more musical
+https://github.com/user-attachments/assets/e8a6632e-16a5-4851-befd-f560245d365a
+
+
+Now with added effects (Filter and Reverb/Delay)
+
+
 
 # Issues
 - On Voice 4, the octaves 5 and 6 are reversed. Probably connection error in the schematic. Blame me if you want.

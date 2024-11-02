@@ -84,6 +84,12 @@ Start with attaching the PCBs to each other first. I did the mistake to first po
 
    ![PCB_Comparison](./images/Jack_Mod.jpg)
 
+11. Backplate
+    Add a Backplate for stability. I don't know how good the connection between the two boards is, electrically and physically. Adding a backplate makes it more rigid and you're not afraid of breaking something off.
+![PCB_Comparison](./images/backplate1.jpg)
+
+![PCB_Comparison](./images/backplate1.jpg)
+
 12. Additional tips:
    - Clean the surface with some nail polish or alcohol cleaner, but don´t spill it all over your desk
    - Don´t burn the potentiometers with your solder iron

@@ -110,7 +110,9 @@ The Y7 Pin is not used, as we only have 6 steps. By connecting it to GND, we get
 Would've been more convenient to connect with a connector if I had not gone with solder pads but just a pin header instead. Can be easily changed in the PCB schematics though.
 
 3. Upload the code to your microcontroller. Example can be found in the repo. You could add potentiometers to control the tempo and gate length of your sequencer. Or just do all kinds of wonky things.
-4. To keep track of which step is currently active, you could add some LEDs
+4. Connect the SEQ pins together with the jumper to activate it.
+5. To keep track of which step is currently active, you could add some LEDs
 
 # Issues
 - On Voice 4, the octaves 5 and 6 are reversed. Probably connection error in the schematic. Blame me if you want.
+- The synth gets louder when connecting the Microcontroller. I gues this might be caused by the additional voltage of the Microcontroller. I'm not sure if this is irrelevant, bad practice or plain out stupid and doing damage. Smelled no smoke yet.

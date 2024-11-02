@@ -116,14 +116,13 @@ Would've been more convenient to connect with a connector if I had not gone with
 
 Sound examples:
 Just the sequencer switching through the voices
-![RAW](./Audio/SEQ_raw.mov)
+https://github.com/TrollingInDaDeep/DronesliderSwitches/raw/refs/heads/main/Audio/SEQ_with_gate_raw.mov
 
 Sequencer switching through, but disabling the note after 50ms gate time. Bit more musical
-https://github.com/user-attachments/assets/e8a6632e-16a5-4851-befd-f560245d365a
-
+https://github.com/TrollingInDaDeep/DronesliderSwitches/raw/refs/heads/main/Audio/SEQ_raw.mov
 
 Now with added effects (Filter and Reverb/Delay)
-
+https://github.com/TrollingInDaDeep/DronesliderSwitches/raw/refs/heads/main/Audio/SEQ_with_effects.mov
 
 
 # Issues

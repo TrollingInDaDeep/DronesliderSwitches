@@ -27,7 +27,7 @@ As it should be quite an easy project I thought it was time to design this as my
 # Sound examples:
 
 Drone without effects
-https://github.com/TrollingInDaDeep/DronesliderSwitches/raw/refs/heads/main/Audio/drone_raw.mov
+https://github.com/TrollingInDaDeep/DronesliderSwitches/raw/refs/heads/main/Audio/drone_raw.wav
 
 Drone with effects
 https://github.com/TrollingInDaDeep/DronesliderSwitches/raw/refs/heads/main/Audio/drone_with_effects.wav

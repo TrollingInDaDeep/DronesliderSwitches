@@ -1,6 +1,8 @@
 ##### Table of Contents  
 [About](#About)
 
+[Sound Examples](#Sound-Examples)
+
 [Circuit](#Circuit)
 
 [Design](#Design)
@@ -21,6 +23,23 @@ FlipFloater, great DIY Synth builder (https://flipfloater.net/) created an aweso
 The Synth is great and motivated me to continue building electronic projects. However my brain is never satisfied, so immediately I started thinking about how to mod this beautiful machine and render it possibly even more useful for making Music.
 The Idea was, that, like an actual drone synth, you don´t need to play it, instead you can fade in and out each of the 6 Voices. This should make the sounds much more spheric and ambient. With switches I wanted to be able to toggle each of the 7 Voice Octaves. 
 As it should be quite an easy project I thought it was time to design this as my first PCB.
+
+# Sound examples:
+
+Drone without effects
+https://github.com/TrollingInDaDeep/DronesliderSwitches/raw/refs/heads/main/Audio/drone_raw.mov
+
+Drone with effects
+https://github.com/TrollingInDaDeep/DronesliderSwitches/raw/refs/heads/main/Audio/drone_with_effects.wav
+
+Just the sequencer switching through the voices
+https://github.com/TrollingInDaDeep/DronesliderSwitches/raw/refs/heads/main/Audio/SEQ_raw.mov
+
+Sequencer switching through, but disabling the note after 50ms gate time. Bit more musical
+https://github.com/TrollingInDaDeep/DronesliderSwitches/raw/refs/heads/main/Audio/SEQ_with_gate_raw.mov
+
+Now with added effects (Filter and Reverb/Delay)
+https://github.com/TrollingInDaDeep/DronesliderSwitches/raw/refs/heads/main/Audio/SEQ_with_effects.mov
 
 # Circuit
 The DroneSlider has 6 Pads, one for each Voice. The pads consist of Metal plates, that you touch with your finger. The flowing Electricity enables every Octave: Small pad means +Voltage, Large Pad connects to each octave. the Circuit has Solder Pads, that are soldered onto the Original DroneSlider to connect to. These Pads are then connected again to DIP Switches, with which you can switch every Octave on and off. Between the +Voltage and each "Receiver Pad" I added a Potentiometer, to gradually fade in each voice.
@@ -113,16 +132,6 @@ Would've been more convenient to connect with a connector if I had not gone with
 4. Connect the SEQ pins together with the jumper to activate it.
 5. Switch off all voices exept the 1st one in SEQ mode. Or you will have a constant sidetone... hmm, might give us interesting results.
 6. To keep track of which step is currently active, you could add some LEDs
-
-Sound examples:
-Just the sequencer switching through the voices
-https://github.com/TrollingInDaDeep/DronesliderSwitches/raw/refs/heads/main/Audio/SEQ_with_gate_raw.mov
-
-Sequencer switching through, but disabling the note after 50ms gate time. Bit more musical
-https://github.com/TrollingInDaDeep/DronesliderSwitches/raw/refs/heads/main/Audio/SEQ_raw.mov
-
-Now with added effects (Filter and Reverb/Delay)
-https://github.com/TrollingInDaDeep/DronesliderSwitches/raw/refs/heads/main/Audio/SEQ_with_effects.mov
 
 
 # Issues

@@ -111,7 +111,13 @@ Would've been more convenient to connect with a connector if I had not gone with
 
 3. Upload the code to your microcontroller. Example can be found in the repo. You could add potentiometers to control the tempo and gate length of your sequencer. Or just do all kinds of wonky things.
 4. Connect the SEQ pins together with the jumper to activate it.
-5. To keep track of which step is currently active, you could add some LEDs
+5. Switch off all voices exept the 1st one in SEQ mode. Or you will have a constant sidetone... hmm, might give us interesting results.
+6. To keep track of which step is currently active, you could add some LEDs
+
+Sound examples:
+<video controls="" autoplay="" name="media">
+    <source src="./Audio/SEQ_raw.mp3" type="audio/mp3">
+</video>
 
 # Issues
 - On Voice 4, the octaves 5 and 6 are reversed. Probably connection error in the schematic. Blame me if you want.

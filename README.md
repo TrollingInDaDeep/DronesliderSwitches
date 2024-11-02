@@ -116,7 +116,7 @@ Would've been more convenient to connect with a connector if I had not gone with
 
 Sound examples:
 <video controls="" autoplay="" name="media">
-    <source src="https://github.com/TrollingInDaDeep/DronesliderSwitches/raw/refs/heads/main/Audio/SEQ_raw.mp3" type="audio/mp3">
+    <source src="https://github.com/TrollingInDaDeep/DronesliderSwitches/raw/refs/heads/main/Audio/SEQ_raw.mp3?raw=true" type="audio/mp3">
 </video>
 
 # Issues

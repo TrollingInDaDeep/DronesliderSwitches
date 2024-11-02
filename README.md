@@ -115,7 +115,7 @@ Would've been more convenient to connect with a connector if I had not gone with
 6. To keep track of which step is currently active, you could add some LEDs
 
 Sound examples:
-./Audio/SEQ_raw.mov
+![RAW](./Audio/SEQ_raw.mov)
 
 # Issues
 - On Voice 4, the octaves 5 and 6 are reversed. Probably connection error in the schematic. Blame me if you want.

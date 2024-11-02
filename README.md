@@ -11,6 +11,7 @@
 
 [Sequencer](#Sequencer)
 
+[Issues](#Issues)
 
 # DronesliderSwitches
 Addon PCB for FlipFloaters Hex Drone Slider
@@ -98,3 +99,18 @@ Start with attaching the PCBs to each other first. I did the mistake to first po
    - The Mixing potentiometers behave a bit strange. When a voice is enabled, you should turn up the pot at least a little bit, otherwise none of the voices will be heard. I used linear pots, which are sub-optimal for audio usage, but they work quite okay with this strange behavior.
 
 # Sequencer
+Using a CD4051BE Multiplexer, this thing can be turned into a fresh 6-step Sequencer! You just need a microcontroller like an arduino. It needs 3 digital pins to select one of the Multiplexer's outputs.
+1. Solder cables to the pads on the PCB and connect them to the Microcontroller. I used an arduino UNO for testing.
+Connect the Pads E#, VE, VSS, GND and Y7 together. These will all be connected to GND of the Microcontroller. Why, you ask?
+The E#, VE and VSS make sure the Multiplexer is grounded and enabled.
+The GND pad connects it to the GND of the DroneSlider, maybe this is a mistake, it could also work without this and it could even prevent noise.
+The Y7 Pin is not used, as we only have 6 steps. By connecting it to GND, we get an additional "silent" step. So if you want to implement silence, a gate time (after which a note stops) etc. just select this pin. -> See example in the code.
+![PCB_Comparison](./images/seqConnect_arduino.jpg)
+
+Would've been more convenient to connect with a connector if I had not gone with solder pads but just a pin header instead. Can be easily changed in the PCB schematics though.
+
+3. Upload the code to your microcontroller. Example can be found in the repo. You could add potentiometers to control the tempo and gate length of your sequencer. Or just do all kinds of wonky things.
+4. To keep track of which step is currently active, you could add some LEDs
+
+# Issues
+- On Voice 4, the octaves 5 and 6 are reversed. Probably connection error in the schematic. Blame me if you want.
